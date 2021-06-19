@@ -1,8 +1,8 @@
 # kp-portfolio
 
-[![](https://img.shields.io/badge/HTML-72%25-yellow)]()
-[![](https://img.shields.io/badge/html-23%25-blue)]()
-[![](https://img.shields.io/badge/CSS-5%25-red)]()
+[![](https://img.shields.io/badge/HTML-48%25-yellow)]()
+[![](https://img.shields.io/badge/html-39%25-blue)]()
+[![](https://img.shields.io/badge/CSS-13%25-red)]()
 
 ## Table of Contents
 
