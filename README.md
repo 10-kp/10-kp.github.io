@@ -60,4 +60,4 @@ This application uses the following packages:
 
 You can see the link of this app [LINK](https://10-kp.github.io/)
 
-You can view the GitHub here [GITHUB](https://github.com/10-kp/kp-portfolio)
+You can view the GitHub here [GITHUB](https://github.com/10-kp/10-kp.github.io)
