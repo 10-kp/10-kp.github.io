@@ -9,7 +9,7 @@ function Footer() {
   return (
     <Container fluid className='footer'>
       <Row>
-        <Col md='4' className='footer-body'>
+        <Col md='12' className='footer-body'>
           <ul className='footer-icons'>
             <li className='social-icons'>
               <a href='https://github.com/10-kp/' style={{ color: 'white' }}>

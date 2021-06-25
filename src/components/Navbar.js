@@ -36,6 +36,16 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to='/portfolio'
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFile style={{ marginBottom: '2px' }} /> Portfolio
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to='/contact'
                 onClick={() => updateExpanded(false)}
               >
@@ -43,15 +53,6 @@ function NavBar() {
                   style={{ marginBottom: '2px' }}
                 />{' '}
                 Contact
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to='/portfolio'
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFile style={{ marginBottom: '2px' }} /> Portfolio
               </Nav.Link>
             </Nav.Item>
           </Nav>

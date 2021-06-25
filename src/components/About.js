@@ -6,15 +6,15 @@ import { AiOutlineDownload } from 'react-icons/ai';
 
 function About() {
   return (
-    <Container fluid className='about-section'>
+    <Container fluid>
       <Container>
-        <Row style={{ justifyContent: 'center', padding: '20px' }}>
+        <Row style={{ justifyContent: 'center', padding: '40px' }}>
           <Col
             md={12}
             style={{
               justifyContent: 'center',
               paddingTop: '30px',
-              paddingBottom: '1px',
+              paddingBottom: '0.3px',
             }}
           >
             <h1>Something About Me</h1>

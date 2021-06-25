@@ -5,20 +5,21 @@ import Type from './Type';
 function Home() {
   return (
     <section>
-      <Container fluid className='home-section'>
-        <Container className='home-content'>
+      <Container fluid>
+        <Container>
           <Row>
-            <Col md={10} className='home-header'>
+            <Col md={12} className='home-header'>
               <h1 className='heading'>Hi There!</h1>
 
-              <h1 className='heading-name'>
-                I'M
+              <h1 className='heading'>
+                I'm
                 <strong className='main-name'> Kunal</strong>
               </h1>
 
-              <h2 className='heading-name'>Welcome to my webpage</h2>
+              <h2 className='heading-name'>Welcome to my webpage!</h2>
+              <h5 className='heading-name'>Please feel free to browse</h5>
 
-              <div style={{ padding: 25, textAlign: 'left' }}>
+              <div style={{ padding: 30, textAlign: 'left' }}>
                 <Type />
               </div>
             </Col>

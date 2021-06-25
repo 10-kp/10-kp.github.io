@@ -7,19 +7,6 @@ import { FaLinkedinIn } from 'react-icons/fa';
 
 function Contact() {
   return (
-    // <div className="uk-margin">
-    //             <label className="uk-form-label uk-text-muted" htmlFor="name">Name</label>
-    //             <div className="uk-form-controls">
-    //                 <input className="uk-input" id="name" type="text" placeholder="John Doe" ref={nameRef} />
-    //             </div>
-    //   </div>
-    // <div className="uk-margin">
-    // <label className="uk-form-label uk-text-muted" htmlFor="email">Email</label>
-    // <div className="uk-form-controls">
-    //     <input className="uk-input" id="email" type="text" placeholder="your@email.com" ref={emailRef} />
-    // </div>
-    // </div>
-
     <Container fluid className='home-about-section' id='about'>
       <Container>
         <Row>
