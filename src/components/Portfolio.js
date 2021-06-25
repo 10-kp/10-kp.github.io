@@ -20,7 +20,7 @@ function Projects() {
             <ProjectCard
               imgPath={empdir}
               title='Employee Directory'
-              description='Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.'
+              description='React based app to create an employee directory. Allows user to acess employee info and sory by first and last name.'
               link='https://10-kp.github.io/employee_directory/'
               link2='https://github.com/10-kp/employee_directory'
             />

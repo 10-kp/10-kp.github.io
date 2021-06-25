@@ -26,6 +26,17 @@ function About() {
               Oregon.
             </h5>
           </Col>
+
+          <Col md={12}>
+            <h7>
+              I started learing and liking programming after realizing the
+              immense opportunities to develop apps and better User Interface
+              (UI). With my background in Banking, I am keen to leverage my
+              experience into creating new ideas using code.
+              <br />
+              <br />
+            </h7>
+          </Col>
         </Row>
         <Col md={6}>
           <ul>
