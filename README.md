@@ -1,8 +1,8 @@
 # kp-portfolio
 
-[![](https://img.shields.io/badge/HTML-72%25-yellow)]()
-[![](https://img.shields.io/badge/html-23%25-blue)]()
-[![](https://img.shields.io/badge/CSS-5%25-red)]()
+[![](https://img.shields.io/badge/HTML-48%25-yellow)]()
+[![](https://img.shields.io/badge/html-39%25-blue)]()
+[![](https://img.shields.io/badge/CSS-13%25-red)]()
 
 ## Table of Contents
 
@@ -58,6 +58,6 @@ This application uses the following packages:
 
 ## Link
 
-You can see the link of this app [LINK](http://10-kp.github.io/kp-portfolio)
+You can see the link of this app [LINK](https://10-kp.github.io/)
 
-You can view the GitHub here [GITHUB](https://github.com/10-kp/kp-portfolio)
+You can view the GitHub here [GITHUB](https://github.com/10-kp/10-kp.github.io)
