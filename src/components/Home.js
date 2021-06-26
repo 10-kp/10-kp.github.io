@@ -19,7 +19,7 @@ function Home() {
               <h2 className='heading-name'>Welcome to my webpage!</h2>
               <h5 className='heading-name'>Please feel free to browse</h5>
 
-              <div style={{ padding: 30, textAlign: 'left' }}>
+              <div style={{ padding: 70, textAlign: 'left' }}>
                 <Type />
               </div>
             </Col>
