@@ -1,13 +1,20 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Pic from '../Assets/kunal-pic.jpg';
 import Button from 'react-bootstrap/Button';
 import { AiOutlineDownload } from 'react-icons/ai';
+import profilePic from '../Assets/kunal-pic.jpg';
+import ReactRoundedImage from 'react-rounded-image';
 
 function About() {
   return (
     <Container fluid>
       <Container>
+        <Col md={5} style={{ paddingBottom: 4, paddingTop: 80 }}>
+          <div style={{ display: 'flex' }}>
+            <ReactRoundedImage image={profilePic} />
+          </div>
+        </Col>
+
         <Row style={{ justifyContent: 'center', padding: '40px' }}>
           <Col
             md={12}
@@ -18,7 +25,6 @@ function About() {
             }}
           >
             <h1>Something About Me</h1>
-            <img src={Pic} alt='profile-pic' />
 
             <h5>
               I am a budding Web Developer with a Certificate in Full Stack Web

@@ -5,10 +5,10 @@ function Type() {
   return (
     <Typewriter
       options={{
-        strings: ['Full Stack Web Developer', 'React', 'MERN', 'HTML', 'CSS'],
+        strings: ['React', 'MERN', 'HTML', 'CSS', 'Javascript'],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 20,
       }}
     />
   );

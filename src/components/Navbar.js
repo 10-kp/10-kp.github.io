@@ -8,15 +8,25 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from 'react-icons/ai';
+import logo from '../Assets/logo.png';
 
 import { CgFile } from 'react-icons/cg';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
+  const [navColour, updateNavbar] = useState(false);
 
   return (
-    <Navbar expanded={expand} fixed='top' expand='md'>
+    <Navbar
+      expanded={expand}
+      fixed='top'
+      expand='md'
+      className={navColour ? 'sticky' : 'navbar'}
+    >
       <Container>
+        <Navbar.Brand href='/'>
+          <img src={logo} className='img-fluid logo' alt='brand' />
+        </Navbar.Brand>
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='ml-auto' defaultActiveKey='#home'>
             <Nav.Item>

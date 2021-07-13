@@ -7,7 +7,9 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import './index.css';
+import './style.css';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [load, upadateLoad] = useState(true);
