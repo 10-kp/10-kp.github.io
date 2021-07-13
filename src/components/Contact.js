@@ -8,13 +8,54 @@ function Contact() {
   return (
     <Container fluid className='home-about-section' id='about'>
       <Container>
+        <div className='git-cont row'>
+          <div className='col-12 col-sm-6 half'>
+            <form
+            // action={
+            //   contact.contactUrl ? contact.contactUrl : 'https://formspree.io'
+            // }
+            // method={contact.contactUrl ? 'POST' : 'GET'}
+            >
+              <input
+                type='text'
+                id='fname'
+                name='firstname'
+                placeholder='Your name'
+                required
+              ></input>
+              <input
+                type='mail'
+                id='mailid'
+                name='Email'
+                placeholder='Email Address'
+                required
+              ></input>
+              <input
+                type='text'
+                id='sub'
+                name='Subject'
+                placeholder='Subject'
+                required
+              ></input>
+              <textarea
+                id='msg'
+                name='message'
+                placeholder='Message'
+                required
+              ></textarea>
+              <button style={{ cursor: 'pointer' }} type='submit'>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
         <Row>
           <Col
             md={9}
             className='home-about-social'
-            style={{ paddingBottom: 4, paddingTop: 80 }}
+            style={{ paddingBottom: 270, paddingTop: 100 }}
           >
-            <p>Feel free to connect with me</p>
+            <h1>Feel free to connect with me</h1>
 
             <ul className='home-about-social-links'>
               <h7>Email Me</h7>

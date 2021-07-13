@@ -15,24 +15,34 @@ function Projects() {
       <Container>
         <h1 className='project-heading'>My Recent Projects</h1>
 
-        <Row style={{ justifyContent: 'center', paddingBottom: '2px' }}>
+        <Row style={{ justifyContent: 'center', paddingBottom: '20px' }}>
           <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={empdir}
-              title='Employee Directory'
-              description='React based app to create an employee directory. Allows user to acess employee info and sory by first and last name.'
-              link='https://10-kp.github.io/employee_directory/'
-              link2='https://github.com/10-kp/employee_directory'
+              imgPath={note}
+              title='Book Search'
+              description='React based Google Books Search app created using MERN (MongoDB, Express, React, Node'
+              link='https://secure-springs-57437.herokuapp.com/'
+              link2='https://github.com/10-kp/Google-Books-Search'
             />
           </Col>
 
           <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={budget}
-              title='Budget Tracker'
-              description='Progressive Web budget App to track account balance, withdrawals, and deposits with or without a data connection'
-              link='https://github.com/10-kp/budget_tracker'
-              link2='https://github.com/10-kp/budget_tracker'
+              imgPath={tech}
+              title='E-Commerce Site'
+              description='An app built using back-end for an e-commerce site. It was created using ORM, Sequelize, and MySQL.'
+              link='https://nameless-ridge-55768.herokuapp.com/'
+              link2='https://github.com/10-kp/tech-blog'
+            />
+          </Col>
+
+          <Col md={4} className='project-card'>
+            <ProjectCard
+              imgPath={stash}
+              title='Stashbusters'
+              description='A Group Project - An app to help yarn hoarders organize their stash. Created using React, Socket.io and more'
+              link='https://damp-hollows-69227.herokuapp.com/'
+              link2='https://github.com/10-kp/sable'
             />
           </Col>
 
@@ -48,31 +58,21 @@ function Projects() {
 
           <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={tech}
-              title='Tech-Blog'
-              description='An MVC built blog app to post ideas and edit them, comment on other user posts and delete their own posts.'
-              link='https://nameless-ridge-55768.herokuapp.com/'
-              link2='https://github.com/10-kp/tech-blog'
+              imgPath={empdir}
+              title='Employee Directory'
+              description='Created a React based app to create an employee directory. The app allows a user to view employees, access employee info, and sory by first and last name.'
+              link='https://10-kp.github.io/employee_directory/'
+              link2='https://github.com/10-kp/employee_directory'
             />
           </Col>
 
           <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={note}
-              title='Note Taker'
-              description='A back-end app to write, delete and save notes.'
-              link='https://damp-journey-24593.herokuapp.com/'
-              link2='https://github.com/10-kp/note-taker'
-            />
-          </Col>
-
-          <Col md={4} className='project-card'>
-            <ProjectCard
-              imgPath={stash}
-              title='Stashbusters'
-              description='Group Project - An app to help yarn hoarders organize their stash.'
-              link='https://nameless-mesa-29731.herokuapp.com/'
-              link2='https://github.com/10-kp/stashbusters'
+              imgPath={budget}
+              title='Budget Tracker'
+              description='Progressive Web budget App to track account balance, withdrawals, and deposits with or without a data connection'
+              link='https://github.com/10-kp/budget_tracker'
+              link2='https://github.com/10-kp/budget_tracker'
             />
           </Col>
         </Row>

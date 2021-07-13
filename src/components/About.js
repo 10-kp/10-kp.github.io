@@ -53,13 +53,13 @@ function About() {
           </Col>
         </Row>
 
-        <h1 className='project-heading'>
-          Professional <strong>Skillset </strong>
-        </h1>
-
-        <Skills />
-
-        <Row style={{ justifyContent: 'center', position: 'relative' }}>
+        <Row
+          style={{
+            justifyContent: 'center',
+            position: 'relative',
+            paddingTop: 0,
+          }}
+        >
           <h5>Check out my resume below.</h5>
           <Button
             variant='primary'
@@ -70,6 +70,12 @@ function About() {
             &nbsp;Download CV
           </Button>
         </Row>
+
+        <h1 className='project-heading'>
+          Professional <strong>Skillset </strong>
+        </h1>
+
+        <Skills />
       </Container>
     </Container>
   );
