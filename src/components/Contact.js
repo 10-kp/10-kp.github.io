@@ -9,7 +9,11 @@ function Contact() {
     <Container fluid className='home-about-section' id='about'>
       <Container>
         <Row>
-          <Col md={4} className='home-about-social'>
+          <Col
+            md={9}
+            className='home-about-social'
+            style={{ paddingBottom: 4, paddingTop: 80 }}
+          >
             <p>Feel free to connect with me</p>
 
             <ul className='home-about-social-links'>
@@ -25,7 +29,7 @@ function Contact() {
               </ul>
 
               <ul className='social-icons'>
-                <h7>My GitHub</h7>
+                <h7>GitHub</h7>
                 <a
                   href='https://github.com/10-kp/'
                   target='_blank'
@@ -47,7 +51,7 @@ function Contact() {
                 </a>
               </ul>
               <ul className='social-icons'>
-                <h7>linkedIn</h7>
+                <h7>LinkedIn</h7>
                 <a
                   href='https://www.linkedin.com/in/kunalkhetarpal'
                   target='_blank'

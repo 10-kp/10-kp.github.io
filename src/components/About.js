@@ -7,15 +7,21 @@ import ReactRoundedImage from 'react-rounded-image';
 
 function About() {
   return (
-    <Container fluid>
+    <Container fluid className='about-section'>
       <Container>
-        <Col md={5} style={{ paddingBottom: 4, paddingTop: 80 }}>
-          <div style={{ display: 'flex' }}>
+        <Col
+          md={12}
+          style={{
+            paddingBottom: 10,
+            paddingTop: 100,
+          }}
+        >
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
             <ReactRoundedImage image={profilePic} />
           </div>
         </Col>
 
-        <Row style={{ justifyContent: 'center', padding: '40px' }}>
+        <Row style={{ justifyContent: 'left', padding: '40px' }}>
           <Col
             md={12}
             style={{
