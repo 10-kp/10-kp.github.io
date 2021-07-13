@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import { AiOutlineDownload } from 'react-icons/ai';
 import profilePic from '../Assets/kunal-pic.jpg';
 import ReactRoundedImage from 'react-rounded-image';
+import Skills from './Skills';
+import { skillsBar } from '../profile';
 
 function About() {
   return (
@@ -50,22 +52,13 @@ function About() {
             </h7>
           </Col>
         </Row>
-        <Col md={6}>
-          <ul>
-            Some of my Front-End skills
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>jQuery</li>
-          </ul>
-        </Col>
-        <Col md={6}>
-          <ul>
-            Some of my Back-End skills
-            <li>MySQL</li>
-            <li>APIs</li>
-            <li>JSON</li>
-          </ul>
-        </Col>
+
+        <h1 className='project-heading'>
+          Professional <strong>Skillset </strong>
+        </h1>
+
+        <Skills />
+
         <Row style={{ justifyContent: 'center', position: 'relative' }}>
           <h5>Check out my resume below.</h5>
           <Button

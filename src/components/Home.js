@@ -14,7 +14,7 @@ function Home() {
                 style={{ paddingBottom: 0, paddingTop: 0 }}
                 className='heading'
               >
-                Hi There!
+                Hi there!
               </h1>
 
               <h1 className='heading'>
