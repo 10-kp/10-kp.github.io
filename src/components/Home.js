@@ -23,9 +23,11 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: 'left' }}>
-                <h3>I am a Full Stack Web Developer</h3>
                 <Type />
+              </div>
 
+              <div style={{ padding: 20, textAlign: 'left' }}>
+                <h3>I am a Full Stack Web Developer</h3>
                 <h3>Welcome to my webpage!</h3>
               </div>
             </Col>

@@ -7,7 +7,6 @@ import {
   DiMongodb,
   DiBootstrap,
   DiMaterializecss,
-  DiGit,
 } from 'react-icons/di';
 import { SiCsswizardry, SiBulma } from 'react-icons/si';
 

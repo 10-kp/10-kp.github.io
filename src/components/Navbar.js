@@ -2,19 +2,29 @@ import React, { useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
+import logo from '../Assets/logo.png';
 import { Link } from 'react-router-dom';
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from 'react-icons/ai';
-import logo from '../Assets/logo.png';
 
-import { CgFile } from 'react-icons/cg';
+import { CgFileDocument } from 'react-icons/cg';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+
+  function scrollHandler() {
+    if (window.scrollY >= 20) {
+      updateNavbar(true);
+    } else {
+      updateNavbar(false);
+    }
+  }
+
+  window.addEventListener('scroll', scrollHandler);
 
   return (
     <Navbar
@@ -27,6 +37,16 @@ function NavBar() {
         <Navbar.Brand href='/'>
           <img src={logo} className='img-fluid logo' alt='brand' />
         </Navbar.Brand>
+        <Navbar.Toggle
+          aria-controls='responsive-navbar-nav'
+          onClick={() => {
+            updateExpanded(expand ? false : 'expanded');
+          }}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </Navbar.Toggle>
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='ml-auto' defaultActiveKey='#home'>
             <Nav.Item>
@@ -34,6 +54,7 @@ function NavBar() {
                 <AiOutlineHome style={{ marginBottom: '2px' }} /> Home
               </Nav.Link>
             </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -43,13 +64,17 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: '2px' }} /> About
               </Nav.Link>
             </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to='/portfolio'
                 onClick={() => updateExpanded(false)}
               >
-                <CgFile style={{ marginBottom: '2px' }} /> Portfolio
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: '2px' }}
+                />{' '}
+                Portfolio
               </Nav.Link>
             </Nav.Item>
 
@@ -59,10 +84,7 @@ function NavBar() {
                 to='/contact'
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: '2px' }}
-                />{' '}
-                Contact
+                <CgFileDocument style={{ marginBottom: '2px' }} /> Contact
               </Nav.Link>
             </Nav.Item>
           </Nav>

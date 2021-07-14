@@ -3,60 +3,62 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import { AiOutlineMail, AiFillGithub, AiOutlineTwitter } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
+import '../style.css';
 
 function Contact() {
   return (
-    <Container fluid className='home-about-section' id='about'>
+    <Container fluid className='home-about-section'>
       <Container>
-        <div className='git-cont row'>
-          <div className='col-12 col-sm-6 half'>
-            <form
-            // action={
-            //   contact.contactUrl ? contact.contactUrl : 'https://formspree.io'
-            // }
-            // method={contact.contactUrl ? 'POST' : 'GET'}
-            >
-              <input
-                type='text'
-                id='fname'
-                name='firstname'
-                placeholder='Your name'
-                required
-              ></input>
-              <input
-                type='mail'
-                id='mailid'
-                name='Email'
-                placeholder='Email Address'
-                required
-              ></input>
-              <input
-                type='text'
-                id='sub'
-                name='Subject'
-                placeholder='Subject'
-                required
-              ></input>
-              <textarea
-                id='msg'
-                name='message'
-                placeholder='Message'
-                required
-              ></textarea>
-              <button style={{ cursor: 'pointer' }} type='submit'>
-                Send Message
-              </button>
-            </form>
-          </div>
-        </div>
         <Row>
           <Col
-            md={9}
+            md={12}
             className='home-about-social'
-            style={{ paddingBottom: 270, paddingTop: 100 }}
-          >
-            <h1>Feel free to connect with me</h1>
+            style={{ paddingBottom: 20, paddingTop: 100 }}
+          ></Col>
+        </Row>
+        <h1>Feel free to connect with me</h1>
 
+        {/* <Container>
+          <Row>
+            <div class='row mainRow'>
+              <form>
+                <div>
+                  <div>
+                    <input
+                      placeholder='First Name'
+                      type='text'
+                      class='validate'
+                    />
+                  </div>
+                  <div>
+                    <input
+                      placeholder='Last Name'
+                      type='text'
+                      class='validate'
+                    />
+                  </div>
+                  <div>
+                    <input placeholder='Email' type='text' class='validate' />
+                  </div>
+                  <div>
+                    <input placeholder='Message' type='text' class='validate' />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </Row>
+        </Container> */}
+
+        <Row>
+          <Col
+            md={12}
+            className='home-about-social'
+            style={{
+              paddingBottom: 190,
+              paddingTop: 60,
+              justifyContent: 'center',
+            }}
+          >
             <ul className='home-about-social-links'>
               <h7>Email Me</h7>
               <ul className='social-icons'>
@@ -70,7 +72,7 @@ function Contact() {
               </ul>
 
               <ul className='social-icons'>
-                <h7>GitHub</h7>
+                <h7>GitHub </h7>
                 <a
                   href='https://github.com/10-kp/'
                   target='_blank'
@@ -81,7 +83,7 @@ function Contact() {
                 </a>
               </ul>
               <ul className='social-icons'>
-                <h7>Tweet</h7>
+                <h7>Tweet </h7>
                 <a
                   href='https://twitter.com/KP_83'
                   target='_blank'
@@ -92,7 +94,7 @@ function Contact() {
                 </a>
               </ul>
               <ul className='social-icons'>
-                <h7>LinkedIn</h7>
+                <h7>LinkedIn </h7>
                 <a
                   href='https://www.linkedin.com/in/kunalkhetarpal'
                   target='_blank'

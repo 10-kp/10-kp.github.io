@@ -102,7 +102,7 @@ html {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #ce2674 !important;
+    background-color: #f7ca36be !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -519,5 +519,16 @@ html {
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
+  }
+
+  /*  ***** CoNTACT SECTION ****** */
+  .contact {
+    margin-top: 60vh;
+    padding: 30px;
+  }
+  .mainRow {
+    margin: 0 auto;
+    margin-top: 15vh;
+    padding: 10px;
   }
 }
