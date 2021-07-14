@@ -22,17 +22,31 @@ function Home() {
                 <strong className='main-name'> Kunal.</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: 'left' }}>
+              <div
+                style={{
+                  padding: 50,
+                  textAlign: 'left',
+                  paddingBottom: 0,
+                  paddingTop: 0,
+                }}
+              >
                 <Type />
               </div>
 
-              <div style={{ padding: 20, textAlign: 'left' }}>
+              <div
+                style={{
+                  padding: 50,
+                  textAlign: 'left',
+                  paddingBottom: 0,
+                  paddingTop: 0,
+                }}
+              >
                 <h3>I am a Full Stack Web Developer</h3>
                 <h3>Welcome to my webpage!</h3>
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 0, paddingTop: 80 }}>
+            <Col md={5} style={{ paddingBottom: 0, paddingTop: 50 }}>
               <img src={mainPic} alt='home pic' className='img-fluid' />
             </Col>
           </Row>
