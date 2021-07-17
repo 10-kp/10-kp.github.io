@@ -72,7 +72,7 @@ function About() {
           <h1>Check out my resume below </h1>
           <Button
             variant='primary'
-            href='https://docs.google.com/document/d/1Ru-sJ7flEH7-rsOqHtAzzqLpuIsMyCES7iQPQAEbADo/edit?usp=sharing'
+            href='https://docs.google.com/document/d/1j_Yk7Yqr9ph5FLpm8zyhX-aJrJ2qYzlUlM2L8Ex9-48/edit?usp=sharing'
             target='_blank'
           >
             <AiOutlineDownload />
