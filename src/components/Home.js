@@ -19,7 +19,7 @@ function Home() {
 
               <h1 className='heading'>
                 I'm
-                <strong className='main-name'> Kunal.</strong>
+                <strong className='main-name'> Kunal</strong>
               </h1>
 
               <div

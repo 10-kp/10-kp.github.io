@@ -55,7 +55,7 @@ function Contact() {
             className='home-about-social'
             style={{
               paddingBottom: 190,
-              paddingTop: 60,
+              paddingTop: 70,
               justifyContent: 'center',
             }}
           >
