@@ -24,14 +24,12 @@ function Home() {
 
               <div
                 style={{
-                  padding: 50,
+                  padding: 80,
                   textAlign: 'left',
                   paddingBottom: 0,
                   paddingTop: 0,
                 }}
-              >
-                <Type />
-              </div>
+              ></div>
 
               <div
                 style={{
@@ -43,6 +41,17 @@ function Home() {
               >
                 <h3>I am a Full Stack Web Developer</h3>
                 <h3>Welcome to my webpage!</h3>
+              </div>
+
+              <div
+                style={{
+                  padding: 50,
+                  textAlign: 'left',
+                  paddingBottom: 0,
+                  paddingTop: 0,
+                }}
+              >
+                <Type />
               </div>
             </Col>
 
