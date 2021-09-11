@@ -24,7 +24,7 @@ The following steps were undertaken to create this program
 - Create and download the repository in gitHub
 - Open VS Code
 
-  - Execut Create React App: Run npx create-react-app <appname>
+  - Execute Create React App: Run npx create-react-app <appname>
 
 - React downloads many dependencies. Download the following dependencies
 
